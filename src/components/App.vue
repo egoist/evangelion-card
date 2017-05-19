@@ -174,7 +174,7 @@
 
         // Episode line
         context.font = `700 ${this.fontSize.episode}px Helvetica Neue,Helvetica,sans-serif`
-        addText(this.form.episode.toUpperCase(), 420, 0.7)
+        addText(this.form.episode.toUpperCase(), 420, 0.75)
 
         // Title line
         context.font = `900 ${this.fontSize.titleSize}px ${this.form.titleFont}`
