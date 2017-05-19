@@ -9,6 +9,7 @@ module.exports = options => ({
     description: pkg.descrption,
     template: path.join(__dirname, 'index.ejs')
   },
+  homepage: '/evangelion-card/',
   extendWebpack(config) {
     // Enable pwa support in production mode
     if (options.mode === 'production') {

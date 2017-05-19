@@ -199,6 +199,7 @@
     color: white
     max-width: 960px
     padding-left: 30px
+    padding-top: 10px
     .form-group
       padding: 10px
     .form-control
