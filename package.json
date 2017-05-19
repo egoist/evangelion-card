@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "evangelion-card",
+  "productName": "Evangelion title card generator",
+  "description": "Evangelion title card generator.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "serve": "serve dist --single",
+    "deploy": "npm run build && gh-pages -d ./dist"
+  },
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "poi": "^8.0.0-rc.4",
+    "serve": "^3.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  },
+  "dependencies": {
+    "grid.css": "^0.2.0",
+    "offline-plugin": "^4.8.0"
+  }
+}
