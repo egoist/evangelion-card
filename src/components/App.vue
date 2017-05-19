@@ -184,7 +184,9 @@
       },
       download() {
         const canvas = $('#canvas')
-        download(canvas.toDataURL(), 'evangelion-card.png', 'image/png')
+        canvas.toBlob(blob => {
+          download(blob, 'evangelion-card.png', 'image/png')
+        })
       }
     },
     components: {

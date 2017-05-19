@@ -4590,6 +4590,10 @@ to-arraybuffer@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz#7d229b1fcc637e466ca081180836a7aabff83f43"
 
+to-blob@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/to-blob/-/to-blob-0.1.0.tgz#a3b4dd05f9a2453d0e79b799378fab34250ab5b6"
+
 to-fast-properties@^1.0.1:
   version "1.0.3"
   resolved "https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-1.0.3.tgz#b83571fa4d8c25b82e231b06e3a3055de4ca1a47"
