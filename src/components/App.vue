@@ -146,7 +146,7 @@
 
           split.forEach((line, index) => {
             const mWidth = context.measureText('M').width
-            context.fillText(line, 30, y + index * mWidth, squashWidth)
+            context.fillText(line, 40, y + index * mWidth, squashWidth)
           })
         }
 
