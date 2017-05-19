@@ -70,7 +70,7 @@
 
 <script>
   import Badge from 'vue-github-badge'
-  import fileSaver from 'file-saver'
+  import download from 'downloadjs'
 
   const $ = document.querySelector.bind(document)
 
@@ -184,9 +184,7 @@
       },
       download() {
         const canvas = $('#canvas')
-        canvas.toBlob(blob => {
-          fileSaver.saveAs(blob, 'evangelion-card.png')
-        })
+        download(canvas.toDataURL(), 'evangelion-card.png', 'image/png')
       }
     },
     components: {
