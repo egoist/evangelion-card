@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <badge slug="egoist/evangelion-card" class="badge" />
     <div class="panel columns">
       <div class="column">
         <div class="form-group">
@@ -61,6 +62,8 @@
 </template>
 
 <script>
+  import Badge from 'vue-github-badge'
+
   const $ = document.querySelector.bind(document)
 
   export default {
@@ -171,6 +174,9 @@
 
         this.$refs.output.appendChild(canvas)
       }
+    },
+    components: {
+      Badge
     }
   }
 </script>
@@ -211,6 +217,15 @@
       display: block
       margin-bottom: 10px
       user-select: none
+
+  .badge
+    svg
+      path
+        fill: white
+    &:hover
+      svg
+        path
+          fill: #ccc
 </style>
 
 <style lang="stylus">

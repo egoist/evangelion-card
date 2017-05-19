@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "grid.css": "^0.2.0",
-    "offline-plugin": "^4.8.0"
+    "offline-plugin": "^4.8.0",
+    "vue-github-badge": "^1.0.0"
   }
 }
