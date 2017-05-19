@@ -56,6 +56,13 @@
           </textarea>
         </div>
       </div>
+      <div class="column download">
+
+        <div class="form-group">
+          <label for="">Download</label>
+          <button class="download-button" @click="download">Save as PNG</button>
+        </div>
+      </div>
     </div>
     <div class="output" ref="output"></div>
   </div>
@@ -63,6 +70,7 @@
 
 <script>
   import Badge from 'vue-github-badge'
+  import fileSaver from 'file-saver'
 
   const $ = document.querySelector.bind(document)
 
@@ -173,6 +181,12 @@
         addText(this.form.titleLine, 515, 0.6)
 
         this.$refs.output.appendChild(canvas)
+      },
+      download() {
+        const canvas = $('#canvas')
+        canvas.toBlob(blob => {
+          fileSaver.saveAs(blob, 'evangelion-card.png')
+        })
       }
     },
     components: {
@@ -212,6 +226,7 @@
       background-color: transparent
       border: 1px solid white
       color: white
+      min-height: 40px
     label
       display: block
       margin-bottom: 10px
@@ -225,6 +240,20 @@
       svg
         path
           fill: #ccc
+
+  .download
+    display: flex
+
+  .download-button
+    cursor: pointer
+    height: 40px
+    background-color: transparent
+    color: white
+    border: 1px solid
+    padding: 0 20px
+    font-size: 16px
+    &:hover
+      background-color: rgba(47, 47, 47, 0.72)
 
   @media screen and (min-width: 768px)
     .panel
