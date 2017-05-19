@@ -5,7 +5,7 @@ const pkg = require('./package')
 module.exports = options => ({
   entry: 'src/index.js',
   html: {
-    title: 'evangelion-card',
+    title: pkg.productName,
     description: pkg.descrption,
     template: path.join(__dirname, 'index.ejs')
   },
