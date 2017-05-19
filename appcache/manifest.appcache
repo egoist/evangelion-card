@@ -1,11 +1,11 @@
 CACHE MANIFEST
-#ver:2017-5-19 17:20:50
+#ver:2017-5-19 17:33:31
 #plugin:4.8.0
 
 CACHE:
-/evangelion-card/vendor.e77df95e.js
-/evangelion-card/client.501349a9.js
-/evangelion-card/manifest.e659a5d2.js
+/evangelion-card/client.754cff2d.js
+/evangelion-card/vendor.08f5651a.js
+/evangelion-card/manifest.885dfc19.js
 /evangelion-card/client.ed671d1c.css
 /evangelion-card/vendor.dcdeeac5.css
 /evangelion-card/
