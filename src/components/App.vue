@@ -204,7 +204,6 @@
   .panel
     color: white
     max-width: 960px
-    padding-left: 30px
     padding-top: 10px
     .form-group
       padding: 10px
@@ -226,6 +225,10 @@
       svg
         path
           fill: #ccc
+
+  @media screen and (min-width: 768px)
+    .panel
+      padding-left: 30px
 </style>
 
 <style lang="stylus">
