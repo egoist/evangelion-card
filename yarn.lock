@@ -1076,15 +1076,9 @@ clipboardy@1.1.0:
   dependencies:
     execa "^0.6.0"
 
-clipboardy@1.1.1:
+clipboardy@1.1.1, clipboardy@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/clipboardy/-/clipboardy-1.1.1.tgz#75b5a7ac50d83c98025fb6303298c6a9007c16c7"
-  dependencies:
-    execa "^0.6.0"
-
-clipboardy@^1.1.1:
-  version "1.1.2"
-  resolved "https://registry.npmjs.org/clipboardy/-/clipboardy-1.1.2.tgz#a26d075ff779b8f82721c0affebc543208a09116"
   dependencies:
     execa "^0.6.0"
 
@@ -3355,13 +3349,13 @@ pkginfo@0.4.0:
   version "0.4.0"
   resolved "https://registry.npmjs.org/pkginfo/-/pkginfo-0.4.0.tgz#349dbb7ffd38081fcadc0853df687f0c7744cd65"
 
-poi-preset-offline@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.npmjs.org/poi-preset-offline/-/poi-preset-offline-8.0.1.tgz#ddfeac8fbc5aca5ccb8bab4c78e55dfaff974778"
+poi-preset-offline@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.npmjs.org/poi-preset-offline/-/poi-preset-offline-8.0.2.tgz#28de00cce147094fad8ab0980ed759d4f8db0320"
 
-poi@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.npmjs.org/poi/-/poi-8.0.0.tgz#ae91d0eac29a165d01cd12c1ff6abe7347f19656"
+poi@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.npmjs.org/poi/-/poi-8.0.2.tgz#b30e9a988e952d524f0e460a43e83ea456b4f05d"
   dependencies:
     address "^1.0.1"
     autoprefixer "^7.0.1"
@@ -3402,6 +3396,7 @@ poi@^8.0.0:
     vue-loader "^12.0.2"
     vue-template-compiler "^2.3.1"
     ware "^1.3.0"
+    web-polyfill "^0.1.0"
     webpack "^2.5.1"
     webpack-chain "^3.2.0"
     webpack-dev-middleware "^1.10.2"
@@ -3719,6 +3714,10 @@ process-nextick-args@~1.0.6:
 process@^0.11.0:
   version "0.11.10"
   resolved "https://registry.npmjs.org/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
+
+promise-polyfill@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.npmjs.org/promise-polyfill/-/promise-polyfill-6.0.2.tgz#d9c86d3dc4dc2df9016e88946defd69b49b41162"
 
 proto-list@~1.2.1:
   version "1.2.4"
@@ -4724,6 +4723,13 @@ watchpack@^1.3.1:
     async "^2.1.2"
     chokidar "^1.4.3"
     graceful-fs "^4.1.2"
+
+web-polyfill@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/web-polyfill/-/web-polyfill-0.1.0.tgz#10e0887b39bfec38c1d7c58b17f83ad0e7760fc5"
+  dependencies:
+    object-assign "^4.1.1"
+    promise-polyfill "^6.0.2"
 
 webpack-chain@^3.2.0:
   version "3.3.0"

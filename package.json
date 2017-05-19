@@ -17,8 +17,8 @@
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
-    "poi": "^8.0.0",
-    "poi-preset-offline": "^8.0.1",
+    "poi": "^8.0.2",
+    "poi-preset-offline": "^8.0.2",
     "serve": "^5.1.5",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1"
