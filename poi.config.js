@@ -10,18 +10,7 @@ module.exports = options => ({
     template: path.join(__dirname, 'index.ejs')
   },
   homepage: '/evangelion-card/',
-  extendWebpack(config) {
-    // Enable pwa support in production mode
-    if (options.mode === 'production') {
-      config.plugin('offline')
-        .use(OfflinePlugin, [{
-          ServiceWorker: {
-            events: true
-          },
-          AppCache: {
-            events: true
-          }
-        }])
-    }
-  }
+  presets: [
+    require('poi-preset-offline')()
+  ]
 })
