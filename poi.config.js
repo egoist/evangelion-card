@@ -2,7 +2,7 @@ const path = require('path')
 const OfflinePlugin = require('offline-plugin')
 const pkg = require('./package')
 
-module.exports = {
+module.exports = options => ({
   entry: 'src/index.js',
   html: {
     title: 'evangelion-card',
@@ -23,4 +23,4 @@ module.exports = {
         }])
     }
   }
-}
+})

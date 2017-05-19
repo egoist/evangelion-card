@@ -9,8 +9,9 @@
     "dev": "poi",
     "build": "poi build",
     "serve": "serve dist --single",
-    "deploy": "npm run build && gh-pages -d ./dist"
+    "deploy": "gh-pages -d ./dist"
   },
+  "homepage": "/evangelion-card/",
   "author": {
     "name": "EGOIST",
     "email": "0x142857@gmail.com"
