@@ -6,8 +6,7 @@ module.exports = options => ({
   entry: 'src/index.js',
   html: {
     title: pkg.productName,
-    description: pkg.description,
-    template: path.join(__dirname, 'index.ejs')
+    description: pkg.description
   },
   homepage: '/evangelion-card/',
   presets: [
