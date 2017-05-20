@@ -3353,9 +3353,9 @@ poi-preset-offline@^8.0.2:
   version "8.0.2"
   resolved "https://registry.npmjs.org/poi-preset-offline/-/poi-preset-offline-8.0.2.tgz#28de00cce147094fad8ab0980ed759d4f8db0320"
 
-poi@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.npmjs.org/poi/-/poi-8.0.2.tgz#b30e9a988e952d524f0e460a43e83ea456b4f05d"
+poi@^8.0.3:
+  version "8.0.3"
+  resolved "https://registry.npmjs.org/poi/-/poi-8.0.3.tgz#98e2ae65a74c3cc63164ccae6e082605fe284db5"
   dependencies:
     address "^1.0.1"
     autoprefixer "^7.0.1"
