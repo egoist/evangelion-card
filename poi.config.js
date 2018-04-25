@@ -8,7 +8,6 @@ module.exports = options => ({
     title: pkg.productName,
     description: pkg.description
   },
-  homepage: '/evangelion-card/',
   presets: [
     require('poi-preset-offline')()
   ]
