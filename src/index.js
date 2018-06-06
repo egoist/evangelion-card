@@ -1,3 +1,4 @@
+import './noop-sw'
 import 'to-blob'
 
 import Vue from 'vue'
