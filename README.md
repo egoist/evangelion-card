@@ -1,6 +1,6 @@
 # evangelion-card
 
-Visit https://eva-card.egoist.rocks
+Visit https://eva-card.egoist.sh
 
 ![eva](https://cloud.githubusercontent.com/assets/8784712/26240931/6b7611d2-3cb5-11e7-8193-36bc4b578d14.png)
 
