@@ -181,9 +181,10 @@ body {
   text-transform: uppercase;
   font-family: 'Times New Roman';
   font-weight: 900;
-  padding: 5rem;
-  padding-top: 7rem;
-  padding-bottom: 14rem;
+  padding: 4rem;
+  padding-top: 6rem;
+  min-width: 1920px;
+  min-height: 1080px;
 }
 
 .first-line,
