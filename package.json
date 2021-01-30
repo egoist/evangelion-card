@@ -6,28 +6,26 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "poi",
-    "build": "poi build",
-    "serve": "serve dist --single",
-    "deploy": "gh-pages -d ./dist"
+    "dev": "vite",
+    "build": "vite build"
   },
   "author": {
     "name": "EGOIST",
     "email": "0x142857@gmail.com"
   },
   "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "poi": "^8.0.3",
-    "poi-preset-offline": "^8.0.2",
-    "serve": "^5.1.5",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1"
+    "@egoist/prettier-config": "^0.1.0",
+    "@types/dom-to-image": "^2.6.2",
+    "@vitejs/plugin-vue": "^1.1.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "prettier": "^2.2.1",
+    "vite": "^2.0.0-beta.59"
   },
   "dependencies": {
+    "dom-to-image": "^2.6.0",
     "downloadjs": "^1.4.7",
-    "grid.css": "^0.2.0",
-    "offline-plugin": "^4.8.0",
+    "grid.css": "^0.6.1",
     "to-blob": "^0.1.0",
-    "vue-github-badge": "^1.0.0"
+    "vue": "^3.0.5"
   }
 }
