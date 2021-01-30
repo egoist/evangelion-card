@@ -182,6 +182,8 @@ body {
   font-family: 'Times New Roman';
   font-weight: 900;
   padding: 40px;
+  padding-top: 60px;
+  padding-bottom: 200px;
 }
 
 .first-line,
