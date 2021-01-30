@@ -181,9 +181,9 @@ body {
   text-transform: uppercase;
   font-family: 'Times New Roman';
   font-weight: 900;
-  padding: 40px;
-  padding-top: 60px;
-  padding-bottom: 200px;
+  padding: 5rem;
+  padding-top: 7rem;
+  padding-bottom: 14rem;
 }
 
 .first-line,
