@@ -26,11 +26,6 @@
   resolved "https://registry.yarnpkg.com/@egoist/prettier-config/-/prettier-config-0.1.0.tgz#242974598c11c0efd80f63cedde3b41a6cda1fdb"
   integrity sha512-BYeixvJcTY/jOgawCgFOBxYBPP0e1WQPiyZw98BsUEjSI5SbdAguRKodqcyT50wie+HGk1EuhGUzC3lfrKL4Vg==
 
-"@types/dom-to-image@^2.6.2":
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/@types/dom-to-image/-/dom-to-image-2.6.2.tgz#f6cc93cd5e84565a3666851fa5472fe8779b49d2"
-  integrity sha512-Yxbwmz/glNwRIXfBI8efG2bgIxrFAKV1MdfpqbUDq25ULMot7U7FYXPiso5G8DlBExSP+AakuG0mNus9yw4RZQ==
-
 "@vitejs/plugin-vue@^1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.1.3.tgz#94c3822d3c2425ca240b86437b8a8c92f29e22b1"
@@ -179,10 +174,10 @@ csstype@^2.6.8:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.14.tgz#004822a4050345b55ad4dcc00be1d9cf2f4296de"
   integrity sha512-2mSc+VEpGPblzAxyeR+vZhJKgYg0Og0nnRi7pmRXFYYxSfnOnW8A5wwQb4n4cE2nIOzqKOAzLCaEX6aBmNEv8A==
 
-dom-to-image@^2.6.0:
+dom-to-image-chrome-fix-retina@^2.6.0:
   version "2.6.0"
-  resolved "https://registry.yarnpkg.com/dom-to-image/-/dom-to-image-2.6.0.tgz#8a503608088c87b1c22f9034ae032e1898955867"
-  integrity sha1-ilA2CAiMh7HCL5A0rgMuGJiVWGc=
+  resolved "https://registry.yarnpkg.com/dom-to-image-chrome-fix-retina/-/dom-to-image-chrome-fix-retina-2.6.0.tgz#03eb21f4bb80be2b0b0fc9d35e511746a48e80f1"
+  integrity sha512-ZdHkFOM9jaFus6xAttTstvVg9nlHbf31HEyxEmT7Gfpp0FY3hUKG0BZ5WKG75nwUUzuunuKUfKFYkf6EZcCsGQ==
 
 downloadjs@^1.4.7:
   version "1.4.7"

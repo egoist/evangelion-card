@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import 'grid.css'
 import { reactive, ref } from 'vue'
-import domToImage from 'dom-to-image'
+import domToImage from 'dom-to-image-chrome-fix-retina'
 
 const form = reactive({
   firstLine: 'neon',
