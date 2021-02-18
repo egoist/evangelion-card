@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import 'grid.css'
 import { reactive, ref } from 'vue'
-import domToImage from 'dom-to-image-chrome-fix-retina'
+import { toJpeg } from 'dom-to-image-retina'
 
 const form = reactive({
   firstLine: 'neon',
@@ -16,7 +16,7 @@ const outputRef = ref<HTMLDivElement>()
 
 const save = () => {
   if (!outputRef.value) return
-  domToImage.toJpeg(outputRef.value, {}).then((dataUrl) => {
+  toJpeg(outputRef.value, {}).then((dataUrl) => {
     const link = document.createElement('a')
     link.download = 'image.jpg'
     link.href = dataUrl
